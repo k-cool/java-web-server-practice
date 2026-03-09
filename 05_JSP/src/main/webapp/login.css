@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 배경 그라데이션 */
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* 로그인 카드 */
+form {
+  padding: 40px 50px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+/* input */
+input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+
+  background: rgba(255,255,255,0.3);
+  color: white;
+
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+/* 버튼 */
+button {
+  margin-top: 10px;
+  padding: 10px;
+
+  border-radius: 10px;
+  border: none;
+
+  background: rgba(255,255,255,0.3);
+  color: white;
+
+  cursor: pointer;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+}

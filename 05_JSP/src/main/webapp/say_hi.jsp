@@ -5,21 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-
 </head>
 <body>
-	${1+2} <br>
-	${5*5} <br>
+
+<%
+	int num = Integer.parseInt(request.getParameter("num"));
+
+	String text= "안녕하세요";
 	
-	<%
-		int a = 10 + 20;
+	if(num <20) text = "안녕";
+	
 	%>
 	
-	
-	<!-- 
-			Servlet - html in java
-			JSP 	- java in html
-	
-	 -->
+	<h1> <%=text %></h1>
 </body>
 </html>

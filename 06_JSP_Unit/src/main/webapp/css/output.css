@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600&display=swap');
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff7aa2,#d6f0ff);
+    font-family:'Pretendard', sans-serif;
+}
+
+.pyeoung {
+    background:linear-gradient(135deg, #b8c0ff, #f1e4ff);
+    color: #cdb4ff;
+}
+
+.fah {
+    background:linear-gradient(135deg, #a8edea, #eafffb);
+    color: #7edfd4;
+}
+
+.mile {
+    background:linear-gradient(135deg, #ff7aa2, #fff2b2);
+    color: #ff7aa2;
+}
+
+/* 카드 */
+body > div{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    width:320px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* 제목 */
+body > div > div:first-child{
+    font-size:28px;
+    font-weight:600;
+    margin-bottom:25px;
+    color:#ff7aa2;
+}
+
+/* 결과 박스 */
+body > div > div:last-child{
+    background:#fff7fb;
+    border-radius:18px;
+    padding:20px;
+}
+
+/* 값 */
+body > div > div:last-child div{
+    font-size:20px;
+    margin:10px 0;
+    color:#444;
+}
+
+/* 화살표 */
+body > div > div:last-child div:nth-child(2){
+    font-size:28px;
+    color:#ff7aa2;
+}
+
+/* 결과 강조 */
+body > div > div:last-child div:nth-child(3){
+    font-size:24px;
+    font-weight:600;
+    color:#ff4f85;
+}
+
+/* 버튼 */
+button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:15px;
+    background:#ff7aa2;
+    color:white;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#ff4f85;
+    transform:translateY(-2px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
