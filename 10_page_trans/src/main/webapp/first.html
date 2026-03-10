@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<!-- 
+
+	request
+	
+	req.getParam("a");
+	
+	1. <a> - GET
+	2. js location.href - GET
+	3. <form> - GET, POST
+
+ -->
+
+
+<script>
+	function go (){
+		location.href='second.jsp?a=5&b=10';
+	}
+</script>
+
+<body>
+	<h1>FIRST PAGE</h1>
+	
+	<a href="second.jsp?a=10&b=20">10 + 20</a>
+	
+	<h2 onclick="go()" style="cursor: pointer;">5 + 10</h2>
+	
+	<form action="second.jsp">
+		<input name="a" value="10">
+		<input name="b" value="10">
+		<button>확인</button>
+	</form>
+</body>
+</html>
