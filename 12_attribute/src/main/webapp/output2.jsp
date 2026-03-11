@@ -47,9 +47,28 @@
 				<input name="howMuch" hidden value="<%=howMuch %>">
 				<button>얼마??</button>
 			</form>	
+			
+			<br>
+			
+			<form action="ExController">
+				<input name="howMuch" hidden value="<%=howMuch %>">
+				<button>얼마??</button>
+			</form>	
+			
+			<form action="ExController" method="POST">
+				<input name="test" value="<%=howMuch %>">
+				<button>얼마?? 데이터 완성</button>
+			</form>	
+			
+			<form action="ExController" method="POST">
+				<input name="test" value="<%=r.getEx() %>">
+				<button>얼마?? 데이터 미완성</button>
+			</form>	
 		<% 
 			} 
 		%>
+		
+		
 		
 		
 	</div>

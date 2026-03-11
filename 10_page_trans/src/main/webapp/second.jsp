@@ -25,7 +25,7 @@
 	Servlet의 자동이동 시리즈 3개
 	- redirect: 다른 페이지로 URL로 자동이동. req 소실
 	- forward: 기존 URL유지하면서 다른 JSP페이지로 이동. req 보존 
-	- include: 어떤 jsp속에 jsp -> 잘 안씀
+	- include: 어떤 jsp속에 jsp -> 순서 제어가 안돼서 잘 안씀
 	
 	*/
 

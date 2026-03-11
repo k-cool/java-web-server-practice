@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="09_BMI" path="/09_BMI" reloadable="true" source="org.eclipse.jst.jee.server:09_BMI"/><Context docBase="10_page_trans" path="/10_page_trans" reloadable="true" source="org.eclipse.jst.jee.server:10_page_trans"/><Context docBase="11_JSP_Model2" path="/11_JSP_Model2" reloadable="true" source="org.eclipse.jst.jee.server:11_JSP_Model2"/><Context docBase="12_attribute" path="/12_attribute" reloadable="true" source="org.eclipse.jst.jee.server:12_attribute"/></Host>
+      <Context docBase="09_BMI" path="/09_BMI" reloadable="true" source="org.eclipse.jst.jee.server:09_BMI"/><Context docBase="10_page_trans" path="/10_page_trans" reloadable="true" source="org.eclipse.jst.jee.server:10_page_trans"/><Context docBase="11_JSP_Model2" path="/11_JSP_Model2" reloadable="true" source="org.eclipse.jst.jee.server:11_JSP_Model2"/><Context docBase="12_attribute" path="/12_attribute" reloadable="true" source="org.eclipse.jst.jee.server:12_attribute"/><Context docBase="13_JSP_Model2_pay" path="/13_JSP_Model2_pay" reloadable="true" source="org.eclipse.jst.jee.server:13_JSP_Model2_pay"/></Host>
     </Engine>
   </Service>
 </Server>

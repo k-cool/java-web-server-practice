@@ -29,4 +29,13 @@ public class Model {
 		request.setAttribute("r", r);
 
 	}
+
+	public static void makeValue(HttpServletRequest request, HttpServletResponse response) {
+		int test = Integer.parseInt(request.getParameter("test"));
+
+		if (test < 0)
+			test *= -1;
+
+		request.setAttribute("posTest", test);
+	}
 }
